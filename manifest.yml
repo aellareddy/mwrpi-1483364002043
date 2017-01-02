@@ -1,0 +1,14 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: mwrpi
+  host: mwrpi
+  disk_quota: 1024M
+  services:
+  - mwrpi-cloudantNoSQLDB
+  - mwrpi-iotf-service
+  - availability-monitoring-auto
+  - Visual Recognition-9k
+  - Text to Speech-mo
